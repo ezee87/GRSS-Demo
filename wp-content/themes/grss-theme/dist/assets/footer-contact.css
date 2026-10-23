@@ -1,0 +1,85 @@
+.footer-connect {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem 1.25rem;
+  padding-top: 0.15rem;
+  color: rgba(250, 248, 244, 0.72);
+  font-size: 0.76rem;
+  line-height: 1.4;
+}
+
+.footer-connect__direct,
+.footer-connect__social {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem 1rem;
+}
+
+.footer-connect a {
+  display: inline-flex;
+  min-height: 34px;
+  align-items: center;
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-connect a:hover {
+  color: var(--grss-light);
+}
+
+.footer-connect__social a {
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.footer-connect__social a::after {
+  margin-left: 0.32rem;
+  content: "↗";
+  font-size: 0.72rem;
+}
+
+.footer-connect__direct a::before {
+  margin-right: 0.4rem;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  opacity: 0.65;
+}
+
+.footer-connect__direct a:first-child::before {
+  content: "T";
+}
+
+.footer-connect__direct a:last-child::before {
+  content: "E";
+}
+
+@media (max-width: 767px) {
+  .footer-connect {
+    display: grid;
+    gap: 0.15rem;
+    padding-top: 0.1rem;
+  }
+
+  .footer-connect__direct,
+  .footer-connect__social {
+    gap: 0.1rem 0.85rem;
+  }
+
+  .footer-connect__direct a {
+    min-height: 32px;
+  }
+
+  .footer-connect__social a {
+    min-height: 30px;
+    font-size: 0.64rem;
+  }
+}
