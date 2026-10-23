@@ -1,3 +1,15 @@
+.header-brand-logo,
+.header-brand-logo .custom-logo-link {
+  position: relative;
+  z-index: 2;
+  display: block;
+  pointer-events: auto;
+}
+
+.header-brand-logo .custom-logo-link {
+  cursor: pointer;
+}
+
 .footer-connect {
   display: flex;
   width: 100%;
