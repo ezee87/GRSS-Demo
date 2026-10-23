@@ -1,0 +1,21 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "trailingSlash": true,
+  "redirects": [
+    { "source": "/abogados/alfonso-guati-rojo-sanchez/", "destination": "/#equipo", "permanent": true },
+    { "source": "/abogados/jose-alfonso-guati-rojo-davila/", "destination": "/#equipo", "permanent": true },
+    { "source": "/abogados/alfredo-manzur-nader/", "destination": "/#equipo", "permanent": true },
+    { "source": "/abogados/michel-harfuch-gomez-de-orozco/", "destination": "/#equipo", "permanent": true }
+  ],
+  "headers": [
+    {
+      "source": "/wp-content/themes/grss-theme/dist/assets/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+    },
+    {
+      "source": "/(.*)\.(png|jpg|jpeg|webp|svg|woff2)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=86400" }]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "assets/images/hero-1-mobile.png": {
+    "file": "assets/hero-1-mobile-Crtg8t-7.png",
+    "src": "assets/images/hero-1-mobile.png"
+  },
+  "src/js/main.js": {
+    "file": "assets/main-DYBDM6_z.js",
+    "name": "main",
+    "src": "src/js/main.js",
+    "isEntry": true,
+    "css": [
+      "assets/main-Ko42oQYr.css"
+    ],
+    "assets": [
+      "assets/hero-1-mobile-Crtg8t-7.png"
+    ]
+  }
+}
